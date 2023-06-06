@@ -1,0 +1,42 @@
+.movies-list{
+    min-height: 34vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.find{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.find span{
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.btns button{
+    font-size: 20px;
+    margin: 10px 20px;
+    padding: 10px 24px;
+    box-shadow: 3px 3px 18px #dfdfdf, -3px -2px 14px #e4e4e4;
+    border-radius: 10px;
+    color: #fff;
+}
+.back{
+    background-color: #ff6464;
+}
+.next{
+    background-color: #00b35f;
+}
+.back:hover{
+    background-color: #ff4d4d;
+}
+.next:hover{
+    background-color: #009c53;
+}
